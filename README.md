@@ -14,34 +14,34 @@ Healio is an Android app that allows users to upload their medical report PDFs, 
 
 ## 📷 Screenshots
 **Start Screen**
-![Start Screen](healio_images/start_screen.jpg)
+![Start Screen](healio_images/start_screen.jpeg)
 
 **Login Screen**
-![Login Screen](healio_images/Login.jpg)
+![Login Screen](healio_images/Login.jpeg)
 
 **Signup Screen**
-![Signup Screen](healio_images/Signup.jpg)
+![Signup Screen](healio_images/Signup.jpeg)
 
 **Dashboard Screen**
-![Dashboard Screen](healio_images/Dashboard.jpg)
+![Dashboard Screen](healio_images/Dashboard.jpeg)
 
 **User Profile Screen**
-![User Profile Screen](healio_images/Profile.jpg)
+![User Profile Screen](healio_images/Profile.jpeg)
 
 **Upload Report Screen**
-![Upload Report Screen](healio_images/Upload.jpg)
+![Upload Report Screen](healio_images/Upload.jpeg)
 
 **Extracted Text**
-![Extracted Text](healio_images/Summarize1.jpg)
+![Extracted Text](healio_images/Summarize1.jpeg)
 
 **Summarize Screen**
-![Summarize Screen](healio_images/Summarize2.jpg)
+![Summarize Screen](healio_images/Summarize2.jpeg)
 
 **Summarize Screen**
-![Summarize Screen](healio_images/Summarize3.jpg)
+![Summarize Screen](healio_images/Summarize3.jpeg)
 
 **Chatbot Screen**
-![Chatbot Screen](healio_images/Chatbot.jpg)
+![Chatbot Screen](healio_images/Chatbot.jpeg)
 
 ## 🛠️ Tech Stack
 
