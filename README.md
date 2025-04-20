@@ -1,6 +1,7 @@
 # Healio – Smart Health Report Assistant
 
 Healio is an Android app that allows users to upload their medical report PDFs, extract text from them on-device, and get AI-generated summaries in simple language. It also features an integrated chatbot to answer health-related queries based on the report content.
+---
 
 ## ✨ Features
 
@@ -11,8 +12,8 @@ Healio is an Android app that allows users to upload their medical report PDFs, 
 - 🔐 **Firebase Auth** – Secure login and signup with Firebase Authentication.
 - ☁️ **Firestore Integration** – Store user data and medical history securely in the cloud.
 - 📱 **Modern UI** – Clean and responsive design with ConstraintLayout, card views, and vector icons.
+---
 
-## 📷 Screenshots
 ## 📷 Screenshots
 
 **Start Screen**  
@@ -44,7 +45,7 @@ Healio is an Android app that allows users to upload their medical report PDFs, 
 
 **Chatbot Screen**  
 <img src="healio_images/Chatbot.jpeg" width="auto" height="500"/>
-
+---
 
 ## 🛠️ Tech Stack
 
@@ -55,7 +56,7 @@ Healio is an Android app that allows users to upload their medical report PDFs, 
 - **PDF Extraction:** Apache PDFBox (Tom Roush port)  
 - **UI/UX:** Material Design, ConstraintLayout
 - **Gradle:** - Groovy Gradle
-
+---
 
 ## 🚀 Getting Started
 
@@ -77,30 +78,25 @@ Healio is an Android app that allows users to upload their medical report PDFs, 
    - Groovy-based Gradle build.
    - Apache PDFBox (Tom Roush port).
    - Firebase Auth + Firestore.
+---
 
 ## 📁 Project Structure
 
 This app uses standard Android architecture with Activities and Fragments. Firebase integration is used for authentication and cloud storage. PDFBox is used locally for text extraction.
+---
 
 ## 🚀 Future Enhancements
 
 - **AI Integration for Better Summarization**: Integrating advanced AI models to provide more accurate and contextually relevant medical report summaries.
   
-- **Voice Assistant**: Adding a voice-based assistant to allow users to interact with the app hands-free, especially useful for users with disabilities or in emergency situations.
-  
-- **Multi-Language Support**: Adding support for multiple languages to make the app accessible to a broader audience globally.
-  
-- **Real-Time Doctor Chat**: Allow users to have real-time consultations with medical professionals based on the extracted report data.
-  
 - **Health Data Integration**: Integrating with wearables like smartwatches to gather health data such as heart rate, blood pressure, etc., and syncing this with the medical reports.
-  
-- **PDF Auto-Upload**: Implementing an auto-upload feature that scans and extracts text from newly added medical reports automatically.
   
 - **Enhanced User Profile**: Adding the ability for users to track their medical history and store multiple reports over time.
   
 - **Push Notifications**: Sending reminders for follow-ups or new health tips based on the medical data the user uploads.
   
 - **Security Features**: Implementing end-to-end encryption for medical data to ensure patient confidentiality and trust.
+---
 
 ## 📄 License
 
