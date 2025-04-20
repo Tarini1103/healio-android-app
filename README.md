@@ -13,45 +13,38 @@ Healio is an Android app that allows users to upload their medical report PDFs, 
 - 📱 **Modern UI** – Clean and responsive design with ConstraintLayout, card views, and vector icons.
 
 ## 📷 Screenshots
-**Start Screen**
+## 📷 Screenshots
 
-<img src="healio_images/start_screen.jpeg" height="400"/>
+**Start Screen**  
+<img src="healio_images/start_screen.jpeg" width="auto" height="500"/>
 
-**Login Screen**
+**Login Screen**  
+<img src="healio_images/Login.jpeg" width="auto" height="500"/>
 
-![Login Screen](healio_images/Login.jpeg)
+**Signup Screen**  
+<img src="healio_images/Signup.jpeg" width="auto" height="500"/>
 
-**Signup Screen**
+**Dashboard Screen**  
+<img src="healio_images/DashBoard.jpeg" width="auto" height="500"/>
 
-![Signup Screen](healio_images/Signup.jpeg)
+**User Profile Screen**  
+<img src="healio_images/Profile.jpeg" width="auto" height="500"/>
 
-**Dashboard Screen**
+**Upload Report Screen**  
+<img src="healio_images/Upload.jpeg" width="auto" height="500"/>
 
-![Dashboard Screen](healio_images/DashBoard.jpeg)
+**Extracted Text**  
+<img src="healio_images/Summarize1.jpeg" width="auto" height="500"/>
 
-**User Profile Screen**
+**Summarize Screen**  
+<img src="healio_images/Summarize2.jpeg" width="auto" height="500"/>
 
-![User Profile Screen](healio_images/Profile.jpeg)
+**Summarize Screen**  
+<img src="healio_images/Summarize3.jpeg" width="auto" height="500"/>
 
-**Upload Report Screen**
+**Chatbot Screen**  
+<img src="healio_images/Chatbot.jpeg" width="auto" height="500"/>
 
-![Upload Report Screen](healio_images/Upload.jpeg)
-
-**Extracted Text**
-
-![Extracted Text](healio_images/Summarize1.jpeg)
-
-**Summarize Screen**
-
-![Summarize Screen](healio_images/Summarize2.jpeg)
-
-**Summarize Screen**
-
-![Summarize Screen](healio_images/Summarize3.jpeg)
-
-**Chatbot Screen**
-
-![Chatbot Screen](healio_images/Chatbot.jpeg)
 
 ## 🛠️ Tech Stack
 
