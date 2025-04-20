@@ -1,7 +1,6 @@
 # Healio – Smart Health Report Assistant
 
 Healio is an Android app that allows users to upload their medical report PDFs, extract text from them on-device, and get AI-generated summaries in simple language. It also features an integrated chatbot to answer health-related queries based on the report content.
----
 
 ## ✨ Features
 
@@ -12,7 +11,39 @@ Healio is an Android app that allows users to upload their medical report PDFs, 
 - 🔐 **Firebase Auth** – Secure login and signup with Firebase Authentication.
 - ☁️ **Firestore Integration** – Store user data and medical history securely in the cloud.
 - 📱 **Modern UI** – Clean and responsive design with ConstraintLayout, card views, and vector icons.
----
+
+## 📱 Usage
+
+### 1. **Starting the App**
+
+- When you first open the app, you will see the **Start Screen**.
+
+### 2. **Sign Up / Log In**
+
+- If you are a new user, click on **Sign Up** and provide your email, and password.
+- If you already have an account, click on **Log In** and enter your credentials.
+
+### 3. **Dashboard**
+
+- Once you are logged in, you will be redirected to the **Dashboard Screen**, where you can upload your medical report.
+
+### 4. **Upload Report**
+
+- Click on the **Upload Report** button to choose a medical report (in PDF format) from your device.
+- The app will extract the text from the PDF and show the **Extracted Text**.
+
+### 5. **Summarize the Report**
+
+- After the text is extracted, click on the **Summarize** button to view a simplified summary of your medical report.
+
+### 6. **Using the Chatbot**
+
+- If you have any health-related queries, go to the **Chatbot Screen**.
+- Type in your question, and the app's chatbot will provide answers.
+
+### 7. **User Profile**
+
+- You can also access and edit your **User Profile** from the Dashboard to manage your personal information.
 
 ## 📷 Screenshots
 
@@ -45,7 +76,6 @@ Healio is an Android app that allows users to upload their medical report PDFs, 
 
 **Chatbot Screen**  
 <img src="healio_images/Chatbot.jpeg" width="auto" height="500"/>
----
 
 ## 🛠️ Tech Stack
 
@@ -56,7 +86,6 @@ Healio is an Android app that allows users to upload their medical report PDFs, 
 - **PDF Extraction:** Apache PDFBox (Tom Roush port)  
 - **UI/UX:** Material Design, ConstraintLayout
 - **Gradle:** - Groovy Gradle
----
 
 ## 🚀 Getting Started
 
@@ -78,12 +107,10 @@ Healio is an Android app that allows users to upload their medical report PDFs, 
    - Groovy-based Gradle build.
    - Apache PDFBox (Tom Roush port).
    - Firebase Auth + Firestore.
----
 
 ## 📁 Project Structure
 
 This app uses standard Android architecture with Activities and Fragments. Firebase integration is used for authentication and cloud storage. PDFBox is used locally for text extraction.
----
 
 ## 🚀 Future Enhancements
 
@@ -96,7 +123,6 @@ This app uses standard Android architecture with Activities and Fragments. Fireb
 - **Push Notifications**: Sending reminders for follow-ups or new health tips based on the medical data the user uploads.
   
 - **Security Features**: Implementing end-to-end encryption for medical data to ensure patient confidentiality and trust.
----
 
 ## 📄 License
 
