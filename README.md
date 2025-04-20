@@ -82,6 +82,26 @@ Healio is an Android app that allows users to upload their medical report PDFs, 
 
 This app uses standard Android architecture with Activities and Fragments. Firebase integration is used for authentication and cloud storage. PDFBox is used locally for text extraction.
 
+## 🚀 Future Enhancements
+
+- **AI Integration for Better Summarization**: Integrating advanced AI models to provide more accurate and contextually relevant medical report summaries.
+  
+- **Voice Assistant**: Adding a voice-based assistant to allow users to interact with the app hands-free, especially useful for users with disabilities or in emergency situations.
+  
+- **Multi-Language Support**: Adding support for multiple languages to make the app accessible to a broader audience globally.
+  
+- **Real-Time Doctor Chat**: Allow users to have real-time consultations with medical professionals based on the extracted report data.
+  
+- **Health Data Integration**: Integrating with wearables like smartwatches to gather health data such as heart rate, blood pressure, etc., and syncing this with the medical reports.
+  
+- **PDF Auto-Upload**: Implementing an auto-upload feature that scans and extracts text from newly added medical reports automatically.
+  
+- **Enhanced User Profile**: Adding the ability for users to track their medical history and store multiple reports over time.
+  
+- **Push Notifications**: Sending reminders for follow-ups or new health tips based on the medical data the user uploads.
+  
+- **Security Features**: Implementing end-to-end encryption for medical data to ensure patient confidentiality and trust.
+
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
