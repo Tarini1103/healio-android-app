@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Question Input -->
+    <EditText
+        android:id="@+id/questionInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ask a medical question..."
+        android:padding="14dp"
+        android:background="@drawable/rounded_input"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Ask Button -->
+    <Button
+        android:id="@+id/askButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ask"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="20dp"
+        android:padding="12dp"
+        android:backgroundTint="@color/colorPrimaryDark" />
+
+    <!-- Answer Display -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <TextView
+            android:id="@+id/answerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Answer will appear here."
+            android:textColor="#333333"
+            android:textSize="16sp"
+            android:lineSpacingExtra="6dp"
+            android:padding="8dp"/>
+    </ScrollView>
+
+
+</LinearLayout>

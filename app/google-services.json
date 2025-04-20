@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "558259546848",
+    "project_id": "healios-518bf",
+    "storage_bucket": "healios-518bf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:558259546848:android:56a8218919eb451c617e85",
+        "android_client_info": {
+          "package_name": "com.example.healthapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2jD11zdkCVUGHl88DGO32Tx-JgdLfSBE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

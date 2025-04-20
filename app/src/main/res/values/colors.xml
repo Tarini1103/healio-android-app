@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="summary_text">#2E3B4E</color>
+    <color name="summary_bg">#F8FAFF</color>
+    <color name="colorPrimary">#3F51B5</color>  <color name="colorPrimaryDark">#1976D2</color> <color name="colorAccent">#FF4081</color>    <color name="textColorPrimary">#DE000000</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="primaryTextColor">#000000</color>
+    <color name="labelTextColor">#757575</color>
+    <color name="valueTextColor">#212121</color>
+    <color name="dividerColor">#BDBDBD</color>
+</resources>

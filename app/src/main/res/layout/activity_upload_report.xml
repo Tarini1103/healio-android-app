@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadReportActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardUpload"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/horizontal_margin"
+        app:cardCornerRadius="@dimen/card_corner_radius"
+        app:cardElevation="@dimen/card_elevation"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/upload_card_content_padding">
+
+            <TextView
+                android:id="@+id/txtTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Upload Medical Report"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="@dimen/title_text_size"
+                android:textStyle="bold"
+                android:layout_marginBottom="@dimen/title_bottom_margin"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSelectFile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select File"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:textColor="@android:color/white"
+                app:icon="@drawable/ic_upload"
+                app:iconPadding="@dimen/button_icon_padding"
+                android:layout_marginTop="@dimen/button_margin_top"
+                app:cornerRadius="@dimen/button_corner_radius"/>
+
+            <TextView
+                android:id="@+id/txtFileName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/file_name_margin_top"
+                android:text="No file selected"
+                android:textColor="@color/black"
+                android:textSize="@dimen/file_name_text_size"
+                android:textAlignment="center" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnUploadFile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:layout_marginTop="@dimen/upload_button_margin_top"
+                app:icon="@drawable/ic_save"
+                android:text="Save Report"
+                android:textColor="@android:color/white"
+                app:cornerRadius="@dimen/button_corner_radius"/>
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/progress_bar_margin_top"
+                android:visibility="gone"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

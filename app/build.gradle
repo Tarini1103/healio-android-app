@@ -1,0 +1,78 @@
+plugins {
+    alias(libs.plugins.android.application)
+    id 'com.google.gms.google-services'
+}
+
+android {
+    namespace 'com.example.healthapp'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "com.example.healthapp"
+        minSdk 32
+        targetSdk 35
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+    }
+
+
+    buildTypes {
+        release {
+            shrinkResources false // Disable resource shrinking temporarily
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+}
+
+dependencies {
+
+    implementation 'org.apache.tika:tika-core:2.9.1'
+    implementation libs.appcompat
+    implementation libs.material
+    implementation libs.activity
+    implementation libs.constraintlayout
+    implementation libs.firebase.storage
+    testImplementation libs.junit
+    androidTestImplementation libs.ext.junit
+    androidTestImplementation libs.espresso.core
+    implementation 'com.google.android.material:material:1.11.0'
+    // Firebase Authentication
+
+
+    implementation platform('com.google.firebase:firebase-bom:33.10.0')
+    implementation 'com.google.firebase:firebase-auth'
+    implementation 'com.google.firebase:firebase-database'
+    implementation 'com.google.firebase:firebase-firestore:24.10.1' // or the latest version
+    implementation 'com.google.firebase:firebase-storage'
+
+    // Room database for local storage
+    implementation libs.room.runtime
+    annotationProcessor libs.room.compiler
+
+    // PDF processing and document parsing
+    implementation libs.itextpdf
+    implementation 'com.tom-roush:pdfbox-android:2.0.27.0'
+
+
+    // ML Kit for document scanning
+    implementation libs.text.recognition
+
+    // Testing
+    androidTestImplementation libs.junit.v115
+    androidTestImplementation libs.espresso.core.v351
+
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.9.3' // For debugging API calls
+}
